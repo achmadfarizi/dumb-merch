@@ -1,0 +1,16 @@
+.header-bg{
+    background-color: #0B0B0B;
+}
+
+.header-nav{
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+}

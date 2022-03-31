@@ -1,0 +1,20 @@
+.address-checkout{
+    background-color: rgb(206, 206, 206);
+}
+
+.total-payment{
+    background-color: rgb(204, 204, 204);
+}
+
+.checkout .img{
+    width: 40px;
+    height: 40px;
+}
+
+.input-payment{
+    background-color: rgb(204, 204, 204);
+}
+
+.green{
+    color: #56C05A;
+}

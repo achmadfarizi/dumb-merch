@@ -1,0 +1,83 @@
+.admin-cht{
+    position: absolute;
+    width: 271px;
+    height: 50px;
+    left: 50px;
+    top: 110px;
+}
+
+.p-admin{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ABABAB;
+    margin-top: -10px;
+}
+
+.user-cht{
+    position: absolute;
+    width: 240.52px;
+    height: 40px;
+    left: 990px;
+    top: 350px;
+    background-color: #262626;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    
+}
+
+.admin-chat{
+    position: absolute;
+    width: 349px;
+    height: 50px;
+    left: 485px;
+    top: 420px;
+}
+
+.chat p{
+    color: white;
+    font-family: 'Avenir';
+}
+
+.message{
+    position: absolute;
+    width: 740px;
+    height: 59px;
+    left: 480px;
+    top: 520px;
+    border: none;
+    padding-left: 10px;
+
+    background: rgba(171, 171, 171, 0.15);
+    color: white;
+}
+
+.vr{
+    position: absolute;
+    width: 970px;
+    height: 0px;
+    left: -90px;
+    top: 88px;
+
+    border: 1px solid rgba(106, 106, 106, 0.3);
+    transform: rotate(90deg);
+}
+
+.cht{
+    background: #575757;
+    border-radius: 5px;
+    padding: 10px 10px 0 30px;
+    margin-left: 12px;
+}
+
+.triangle{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 65px;
+    top: 11px;
+    background: #575757;
+    transform: rotate(46deg);
+}

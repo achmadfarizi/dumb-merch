@@ -1,0 +1,23 @@
+.Left-side-login{
+    width: 416px;
+    height: 366px;
+    margin-top: 197px;
+    margin-left: 97px;
+}
+
+.Left-side-login h2{
+    margin-bottom: 29px;
+    color: white;
+}
+
+.Left-side-login .grey{
+    background: rgba(210, 210, 210, 0.25);
+    padding-left: 10px;
+}
+
+
+
+.Left-side-login .btn{
+    width: 330px;
+    margin-top: 20px;
+}

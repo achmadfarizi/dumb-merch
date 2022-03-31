@@ -1,0 +1,52 @@
+.right-landing{
+    margin-top: 100px;
+}
+.right-landing .logo{
+    width: 264px;
+    height: 264px;
+    left: 139px;
+    top: 140px;
+}
+
+.right-landing h2{
+    width: 619px;
+    height: 76px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 76px;
+    color: white;
+}
+
+.right-landing p{
+    width: 453px;
+    height: 50px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6A6A6A;;
+    line-height: 25px;
+
+}
+
+.right-landing .login{
+    width: 135px;
+    height: 40px;
+    left: 139px;
+    top: 654px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.right-landing .register{
+    width: 135px;
+    height: 40px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B7B7B7;
+}

@@ -1,0 +1,41 @@
+.detail-shop{
+    width: 1000px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.detail-shop img{
+    margin-right: 55px;
+    width: 300px;
+    height: 400px;
+}
+
+.Desc-shop{
+    width: 545px;
+    height: 522px;
+}
+
+.Desc-shop h2{
+    color: red;
+}
+
+.Desc-shop p{
+    text-align: justify;
+    color: white;
+    font-family: 'Avenir';
+}
+
+.detail-shop .price{
+    float: right;
+    color: red;
+    font-size: 20px;
+}
+
+.btn-buy{
+    position: absolute;
+    width: 544px;
+    height: 40px;
+    left: 500px;
+    top: 500px;
+    border-radius: 5px;
+}

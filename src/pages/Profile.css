@@ -1,0 +1,35 @@
+.Profile h2, h6{
+    color: #F74D4D;
+}
+
+.Profile h2{
+    margin-top: 50px;
+}
+
+.Profile p{
+    color: white;
+}
+
+.profile-user{
+    width: 630px;
+}
+
+.profile-user img{
+    width: 280px;
+}
+
+.shop-history{
+    padding: 10px 15px;
+    background-color: #303030;
+}
+
+.right-side-profile .image-shop{
+    width: 80px;
+    height: 120px;
+}
+
+.logo-image{
+    width: 70px;
+    height: 70px;
+    margin-left: 140px;
+}
