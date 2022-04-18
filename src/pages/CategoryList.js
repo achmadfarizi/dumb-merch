@@ -5,13 +5,14 @@ import {Table, Container, Button, Modal} from 'react-bootstrap'
 import { useState } from 'react'
 import './CategoryList.css'
 import categorydata from '../Dummydata/categorydata'
+import {Link} from 'react-router-dom'
 
 
 function CategoryList() {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleClose = () => setShow('achmad');
+    const handleShow = () => setShow('ilham');
   return (
     <div>
         <HeaderAdmin />
@@ -29,7 +30,9 @@ function CategoryList() {
                 <td><p>{product.no}</p></td>
                 <td><p>{product.categoryname}</p></td>
                 <td>
-                    <Button className='me-3' variant='success' style={{width: "100px"}}>Edit</Button>
+                    <Link to='/editproduct'>
+                        <Button className='me-3' variant='success' style={{width: "100px"}}>Edit</Button>
+                    </Link>
                     <Button onClick={handleShow} variant='danger'style={{width: "100px"}}>Delete</Button>
                 </td>
             </tr>

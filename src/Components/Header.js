@@ -7,7 +7,7 @@ import './Header.css'
 function Header() {
   return (
     <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" className='header-nav'>
         <Container>
 
         <Navbar.Brand href="#home">

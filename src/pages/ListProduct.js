@@ -5,6 +5,7 @@ import HeaderAdmin from '../Components/HeaderAdmin'
 import { useState } from 'react'
 import './ListProduct.css'
 import listdata from '../Dummydata/listdata'
+import {Link} from 'react-router-dom'
 
 function ListProduct() {
     const [show, setShow] = useState(false);
@@ -36,7 +37,9 @@ function ListProduct() {
                         <td><p>{product.price}</p></td>
                         <td><p>{product.qty}</p></td>
                         <td>
+                            <Link to='/editshop'>
                             <Button className='me-3' variant='success' style={{width: "100px"}}>Edit</Button>
+                            </Link>
                             <Button onClick={handleShow} variant='danger'style={{width: "100px"}}>Delete</Button>
                         </td>
                     </tr>
